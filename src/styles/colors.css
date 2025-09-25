@@ -1,0 +1,111 @@
+:root {
+  /* Primary Colors */
+  --color-primary: #3498db;
+  --color-primary-dark: #2980b9;
+  --color-primary-light: #e3f2fd;
+  --color-primary-lighter: #bbdefb;
+  --color-primary-lightest: #90caf9;
+  
+  /* Secondary Colors */
+  --color-secondary: #2c3e50;
+  --color-secondary-light: #34495e;
+  --color-secondary-dark: #1a252f;
+  
+  /* Success Colors */
+  --color-success: #27ae60;
+  --color-success-dark: #229954;
+  --color-success-light: #d4edda;
+  --color-success-lighter: #c3e6cb;
+  --color-success-text: #155724;
+  --color-success-text-dark: #0f5132;
+  
+  /* Error Colors */
+  --color-error: #e74c3c;
+  --color-error-dark: #c0392b;
+  --color-error-light: #f8d7da;
+  --color-error-lighter: #f5c6cb;
+  
+  /* Warning Colors */
+  --color-warning: #f39c12;
+  --color-warning-dark: #e67e22;
+  --color-warning-light: #fff3cd;
+  --color-warning-lighter: #ffeaa7;
+  
+  /* Info Colors */
+  --color-info: #17a2b8;
+  --color-info-dark: #138496;
+  --color-info-light: #d1ecf1;
+  --color-info-lighter: #bee5eb;
+  
+  /* Neutral Colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray-50: #f8f9fa;
+  --color-gray-100: #f1f1f1;
+  --color-gray-200: #e9ecef;
+  --color-gray-300: #dee2e6;
+  --color-gray-400: #cbd5e0;
+  --color-gray-500: #a8a8a8;
+  --color-gray-600: #6c757d;
+  --color-gray-700: #495057;
+  --color-gray-800: #343a40;
+  --color-gray-900: #212529;
+  
+  /* Text Colors */
+  --color-text-primary: #2c3e50;
+  --color-text-secondary: #7f8c8d;
+  --color-text-muted: #6c757d;
+  --color-text-light: #718096;
+  --color-text-dark: #2d3748;
+  
+  /* Background Colors */
+  --color-bg-primary: #f5f5f5;
+  --color-bg-secondary: #ffffff;
+  --color-bg-tertiary: #f8f9fa;
+  --color-bg-quaternary: #f7fafc;
+  --color-bg-quinary: #edf2f7;
+  
+  /* Border Colors */
+  --color-border-light: #e1e8ed;
+  --color-border-medium: #dee2e6;
+  --color-border-dark: #c1c1c1;
+  --color-border-darker: #a8a8a8;
+  
+  /* Gradient Colors */
+  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-primary-alt: linear-gradient(135deg, #667eea, #764ba2);
+  --gradient-success: linear-gradient(135deg, #d4edda, #c3e6cb);
+  --gradient-info: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  --gradient-info-hover: linear-gradient(135deg, #bbdefb, #90caf9);
+  --gradient-button: linear-gradient(90deg, #007bff, #0056b3);
+  --gradient-card: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  
+  /* Shadow Colors */
+  --shadow-light: rgba(0, 0, 0, 0.1);
+  --shadow-medium: rgba(0, 0, 0, 0.15);
+  --shadow-dark: rgba(0, 0, 0, 0.2);
+  
+  /* Focus Colors */
+  --color-focus: #3498db;
+  --color-focus-ring: rgba(52, 152, 219, 0.25);
+  --color-focus-ring-alt: rgba(102, 126, 234, 0.1);
+  
+  /* Hover Colors */
+  --color-hover-primary: #2980b9;
+  --color-hover-success: #229954;
+  --color-hover-error: #c0392b;
+  --color-hover-warning: #e67e22;
+  --color-hover-gray: #c1c1c1;
+  --color-hover-gray-dark: #a8a8a8;
+  
+  /* Disabled Colors */
+  --color-disabled: #cccccc;
+  --color-disabled-text: #999999;
+  --color-disabled-bg: #f1f1f1;
+  
+  /* Status Colors */
+  --color-status-loading: #f39c12;
+  --color-status-completed: #27ae60;
+  --color-status-error: #e74c3c;
+  --color-status-info: #3498db;
+}

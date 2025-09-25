@@ -1,0 +1,37 @@
+{
+  "name": "personal-dictionary",
+  "version": "1.0.0",
+  "description": "Personal dictionary application with drag & drop functionality",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "npm run test:unit && npm run test:e2e:reliable",
+    "test:unit": "vitest run",
+    "test:e2e": "cypress open",
+    "test:e2e:headless": "cypress run",
+    "test:e2e:reliable": "node test-e2e-reliable.js"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/test-utils": "^2.4.1",
+    "cypress": "^13.3.0",
+    "jsdom": "^22.1.0",
+    "vite": "^4.4.5",
+    "vitest": "^0.34.6"
+  },
+  "keywords": [
+    "vue",
+    "dictionary",
+    "drag-drop",
+    "localStorage"
+  ],
+  "author": "Vahy",
+  "license": "MIT"
+}
